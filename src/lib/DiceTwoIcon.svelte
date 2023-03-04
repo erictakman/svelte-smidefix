@@ -1,0 +1,24 @@
+<script>
+	export let size = 16;
+	export let color = "#000";
+</script>
+
+<div style={"font-size: " + size + "px;"}>
+	<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M8 9C8 8.44772 8.44772 8 9 8C9.55228 8 10 8.44772 10 9C10 9.55228 9.55228 10 9 10C8.44772 10 8 9.55228 8 9Z" fill="black"/>
+<path d="M15 14C14.4477 14 14 14.4477 14 15C14 15.5523 14.4477 16 15 16C15.5523 16 16 15.5523 16 15C16 14.4477 15.5523 14 15 14Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10 2C5.58172 2 2 5.58172 2 10V14C2 18.4183 5.58172 22 10 22H14C18.4183 22 22 18.4183 22 14V10C22 5.58172 18.4183 2 14 2H10ZM14 4H10C6.68629 4 4 6.68629 4 10V14C4 17.3137 6.68629 20 10 20H14C17.3137 20 20 17.3137 20 14V10C20 6.68629 17.3137 4 14 4Z" fill="black"/>
+	</svg>
+</div>
+
+<style>
+	div {
+		display: flex;
+		margin: 0;
+		padding: 0;
+		width: max-content;
+	}
+	svg {
+		width: 1em;
+	}
+</style>
